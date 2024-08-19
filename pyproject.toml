@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "amo_urdf"
+version = "0.0.1"
+description = "Friendly mantainance fork of odio-urdf"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["six"]
+
+[project.urls]
+Homepage = "https://github.com/ami-iit/amo_urdf"
+Issues = "https://github.com/ami-iit/amo_urdf/issues"
